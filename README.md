@@ -1,8 +1,7 @@
 TitaniumShareViaAndroid
 =======================
 
-Share contents natively in to apps directly from your Titanium app.
-
+Share contents natively directly from your Titanium app.
 This simple module allows you to share contents (text or images) via Facebook or native apps (using intents).
 
 ####Usage
