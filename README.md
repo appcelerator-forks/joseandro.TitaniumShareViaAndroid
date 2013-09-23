@@ -12,7 +12,7 @@ To share text:
 new require('/ShareViaAndroid')("Text to be shared", "text");
 ~~~
 
-Than call it with clip ID and the callback function:
+To share image:
 
 ~~~
 var Blob = win.toImage().media;
