@@ -9,7 +9,7 @@ This simple module allows you to share contents (text or images) via Facebook or
 To share text:
 
 ~~~
-new require('/ShareViaAndroid')("Text to be shared", "text");
+require('/ShareViaAndroid')("Text to be shared", "text");
 ~~~
 
 To share image:
@@ -19,7 +19,7 @@ var Blob = win.toImage().media;
 var file = Titanium.Filesystem.getFile(Titanium.Filesystem.externalStorageDirectory,'image_1.png');
 file.write(Blob);
 	
-new require('/ShareViaAndroid')("Text to be shared", "image" , file);
+require('/ShareViaAndroid')("Text to be shared", "image" , file);
 ~~~
 
 MIT licensed, have fun ;)
