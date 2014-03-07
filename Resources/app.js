@@ -39,7 +39,7 @@ btn.addEventListener('click', function(){
 	var file = Titanium.Filesystem.getFile(Titanium.Filesystem.externalStorageDirectory,'image_1.png');
 	file.write(Blob);
 	
-	new require('/ShareViaAndroid')(aTextField.value, "image", file);
+	require('/ShareViaAndroid')(aTextField.value, "image", file);
 	
 });
 win.add(btn);
