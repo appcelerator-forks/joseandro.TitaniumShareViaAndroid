@@ -23,3 +23,7 @@ require('/ShareViaAndroid')("Text to be shared", "image" , file);
 ~~~
 
 MIT licensed, have fun ;)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/joseandro/titaniumshareviaandroid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
